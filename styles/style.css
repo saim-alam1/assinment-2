@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --quickSand: "Quicksand", serif;
+  --railWay: "Raleway", serif;
+  --orangeColor: #FEA301;
+  --skyBlue: #01ACFD;
+  --aquaColor: #05D4DF;
+  --purpleColor: #5D58EF;
+  --whiteColor: #FFFFFF;
+  --btnHover: #fcc25d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--quickSand);
+}
+
+/* Navigation Area */
+.header {
+  max-width: 1450px;
+  /* background: bisque; */
+  margin-top: 20px;
+}
+
+.nav-menu {
+  max-width: 1140px;
+  /* background: red; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-image {
+  width: 62px;
+  height: 62px;
+}
+
+.logo-name {
+  font-weight: 800;
+  font-size: 2rem;
+  padding-left: 10px;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu ul {
+  display: flex;
+  justify-content: space-around;
+  width: 387px;
+}
+
+.nav-menu ul li {
+  list-style: none;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+.item1 {
+  color: var(--orangeColor);
+}
+
+.item2 {
+  color: var(--skyBlue);
+}
+
+.item3 {
+  color: var(--aquaColor);
+}
+
+.item4 {
+  color: var(--purpleColor);
+}
+
+.btn-primary {
+  border: none;
+  border-radius: 12px;
+  background: var(--orangeColor);
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding: 15px 35px;
+  color: var(--whiteColor);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-primary:hover {
+  background-color: var(--btnHover);
+}
