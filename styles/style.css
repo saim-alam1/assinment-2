@@ -25,12 +25,11 @@
 .main {
   max-width: 1450px;
   margin: 0 auto;
-  /* background: red; */
+  background: green;
 }
 
 /* Navigation Area */
 .header {
-  max-width: 1450px;
   /* background: bisque; */
   margin-top: 20px;
 }
