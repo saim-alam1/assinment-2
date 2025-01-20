@@ -9,12 +9,21 @@
   --purpleColor: #5D58EF;
   --whiteColor: #FFFFFF;
   --btnHover: #fcc25d;
+  --blackColor: rgba(17, 17, 17, 1);
+  --secoundBtnHover: rgb(77, 77, 77);
 }
 
 * {
   margin: 0;
   padding: 0;
   font-family: var(--quickSand);
+}
+
+/* Main */
+.main {
+  max-width: 1450px;
+  margin: 0 auto;
+  /* background: red; */
 }
 
 /* Navigation Area */
@@ -95,4 +104,67 @@
 
 .btn-primary:hover {
   background-color: var(--btnHover);
+}
+
+/* Banner Section */
+.banner {
+  margin-top: 20px;
+  /* max-width: 1450px; */
+}
+
+.banner-content {
+  /* background: blue; */
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-texts {
+  width: 640px;
+}
+
+.banner-title {
+  font-weight: 800;
+  font-size: 3.4rem;
+  padding-bottom: 24px;
+}
+
+.banner-image {
+  width: 477px;
+}
+
+.title-style-1 {
+  color: var(--orangeColor);
+}
+
+.title-style-2 {
+  color: var(--skyBlue);
+}
+
+.banner-description {
+  font-size: 1.25rem;
+  padding-bottom: 24px;
+}
+
+.btn-secoundary {
+  border: none;
+  background-color: var(--blackColor);
+  border-radius: 12px;
+  color: var(--whiteColor);
+  padding: 15px 40px;
+  font-weight: 800;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-secoundary:hover {
+  background-color: var(--secoundBtnHover);
+}
+
+/* Curriculam Section */
+.curriculam-list {
+  margin-top: 60px;
 }
