@@ -502,4 +502,79 @@
   .nav-icon i {
     font-size: 1.85rem;
   }
+
+  /* Banner Content Section */
+  .banner-content {
+    width: 90%;
+    flex-direction: column-reverse;
+  }
+
+  .banner-image {
+    width: 100%;
+  }
+
+  .banner-texts {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .banner-title {
+    font-size: 2rem;
+  }
+
+  .banner-description {
+    font-size: 0.87rem;
+  }
+
+  .btn-secoundary {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+  /* The Header Area */
+  .nav-menu {
+    display: none;
+  }
+
+  .header {
+    margin-top: 0;
+  }
+
+  .mbl-menu {
+    width: 100%;
+    display: block;
+    border: 1px solid var(--orangeColor);
+  }
+
+  .mbl-nav {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+  }
+
+  .nav-icon i {
+    font-size: 1.85rem;
+  }
+
+  /* Banner Content Section */
+  .banner-content {
+    width: 90%;
+    flex-direction: column-reverse;
+  }
+
+  .banner-image {
+    width: 100%;
+  }
+
+  .banner-texts {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
 }
