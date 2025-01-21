@@ -10,6 +10,7 @@
   --whiteColor: #FFFFFF;
   --btnHover: #fcc25d;
   --purpleColor: #8700FF;
+  --smBtnColor: #95B226;
   --blackColor: rgba(17, 17, 17, 1);
   --secoundBtnHover: rgb(77, 77, 77);
 }
@@ -290,6 +291,23 @@
   margin: 0 auto;
 }
 
+.card-btn-box {
+  margin-top: -30px;
+  margin-left: 30px;
+}
+
+#card-btn {
+  font-family: var(--railWay);
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 18px 19px;
+  border-radius: 47px;
+  border: none;
+  background-color: var(--aquaColor);
+  color: var(--whiteColor);
+  cursor: pointer;
+}
+
 .card-no-1 {
   width: 540px;
 }
@@ -306,7 +324,7 @@
 }
 
 .text-container {
-  padding: 30px;
+  padding: 0 30px;
 }
 
 .story-subtitle {
@@ -337,6 +355,33 @@
 
 .small-card {
   width: 290px;
+}
+
+.card-btn-box-sm {
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.card-btn-sm {
+  font-family: var(--railWay);
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 10px 19px;
+  border-radius: 47px;
+  border: none;
+  background-color: var(--aquaColor);
+  color: var(--whiteColor);
+  cursor: pointer;
+}
+
+.sm-btn-1,
+.sm-btn-3,
+.sm-btn-4 {
+  background-color: var(--smBtnColor);
+}
+
+.sm-btn-2 {
+  background-color: var(--violetColor);
 }
 
 .small-text-box {
