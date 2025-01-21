@@ -473,6 +473,7 @@
   display: none;
 }
 
+/* Responsive For Mobile Deviceses */
 @media screen and (max-width: 576px) {
 
   /* The Header Area */
@@ -530,8 +531,30 @@
   .btn-secoundary {
     font-size: 1rem;
   }
+
+  .curriculam-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .curriculam-title {
+    margin-bottom: 20px;
+    font-size: 1.62rem;
+  }
+
+  .curriculam-cards {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 12px;
+  }
+
+  .next-icons {
+    display: none;
+  }
 }
 
+
+/* Responsive For Tablet Deviceses */
 @media screen and (min-width: 577px) and (max-width: 992px) {
 
   /* The Header Area */
