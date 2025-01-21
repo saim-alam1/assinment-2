@@ -25,7 +25,6 @@
 .main {
   max-width: 1450px;
   margin: 0 auto;
-  background: green;
 }
 
 /* Navigation Area */
@@ -255,10 +254,10 @@
 }
 
 .next-icons {
-  /* background: red; */
   text-align: center;
   color: var(--orangeColor);
   padding-top: 80px;
+  padding-bottom: 60px;
 }
 
 .fa-chevron-circle-left,
@@ -268,4 +267,83 @@
 
 .fa-chevron-circle-left {
   padding-right: 10px;
+}
+
+/* Story Section */
+.story-section {
+  margin-top: 60px;
+  margin-bottom: 150px;
+  height: 1018px;
+  background-image: url(../assets/bg.png);
+  background: url(image), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+}
+
+.story-title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.81rem;
+  padding-bottom: 60px;
+}
+
+.story-conatainer {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.card-no-1 {
+  width: 540px;
+}
+
+.story-card,
+.small-card {
+  border-radius: 16px;
+  background: var(--whiteColor);
+}
+
+.story-card img,
+.small-card img {
+  border-radius: 16px 16px 0 0;
+}
+
+.text-container {
+  padding: 30px;
+}
+
+.story-subtitle {
+  font-weight: 800;
+  font-size: 1.5rem;
+  padding: 30px 0;
+}
+
+.story-description {
+  padding-bottom: 35px;
+  font-family: var(--railWay);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.story-conatainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.small-cards {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.small-card {
+  width: 290px;
+}
+
+.small-text-box {
+  padding: 20px;
+}
+
+.small-heading {
+  font-weight: 800;
+  font-size: 1rem;
 }
