@@ -43,6 +43,10 @@
   justify-content: space-between;
 }
 
+.mbl-menu {
+  display: none;
+}
+
 .logo-image {
   width: 62px;
   height: 62px;
@@ -264,6 +268,7 @@
 .fa-chevron-circle-left,
 .fa-chevron-circle-right {
   font-size: 60px;
+  cursor: pointer;
 }
 
 .fa-chevron-circle-left {
@@ -462,4 +467,39 @@
 
 .social-icon {
   cursor: pointer;
+}
+
+.display-none {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+
+  /* The Header Area */
+  .nav-menu {
+    display: none;
+  }
+
+  .header {
+    margin-top: 0;
+  }
+
+  .mbl-menu {
+    width: 100%;
+    display: block;
+    border: 1px solid var(--orangeColor);
+  }
+
+  .mbl-nav {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+  }
+
+  .nav-icon i {
+    font-size: 1.85rem;
+  }
 }
