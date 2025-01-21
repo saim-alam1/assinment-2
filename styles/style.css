@@ -396,6 +396,7 @@
 /* Footer Area */
 .footer {
   max-width: 1450px;
+  margin: 0 auto;
   background-color: var(--skyBlue);
   color: var(--whiteColor);
 }
