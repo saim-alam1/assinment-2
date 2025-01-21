@@ -273,7 +273,7 @@
 /* Story Section */
 .story-section {
   margin-top: 60px;
-  margin-bottom: 150px;
+  /* margin-bottom: 150px; */
   height: 1018px;
   background-image: url(../assets/bg.png);
   background: url(image), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
@@ -391,4 +391,74 @@
 .small-heading {
   font-weight: 800;
   font-size: 1rem;
+}
+
+/* Footer Area */
+.footer {
+  max-width: 1450px;
+  background-color: var(--skyBlue);
+  color: var(--whiteColor);
+}
+
+.footer-content {
+  width: 1070px;
+  margin: 0 auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+.description-box {
+  width: 400px;
+}
+
+.footer-img-box {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 82px;
+  width: 82px;
+}
+
+.img-title {
+  font-weight: 800;
+  font-size: 2.5rem;
+  padding-left: 10px;
+}
+
+.shool-description {
+  margin-top: 35px;
+  font-size: 1.25rem;
+}
+
+.about-links .subtitle-text {
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.about-links ul li {
+  list-style: none;
+}
+
+.about-links ul li>a {
+  text-decoration: none;
+  color: var(--whiteColor);
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.social-heading {
+  font-weight: 800;
+  font-size: 1.55rem;
+  margin-bottom: 30px;
+}
+
+.social-icon {
+  cursor: pointer;
 }
