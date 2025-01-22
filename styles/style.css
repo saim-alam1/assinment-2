@@ -571,7 +571,6 @@
 
   .story-conatainer {
     width: 95%;
-    /* background: blue; */
     display: flex;
   }
 
@@ -610,6 +609,22 @@
 
   .mbl-card-btn {
     background-color: var(--violetColor);
+  }
+
+  /* Footer Area */
+  .footer {
+    max-width: 100%;
+  }
+
+  .footer-content {
+    width: 95%;
+    flex-direction: column;
+    padding: 100px 20px;
+  }
+
+  .description-box {
+    margin-bottom: 20px;
+    width: 355px;
   }
 }
 
