@@ -278,7 +278,6 @@
 /* Story Section */
 .story-section {
   margin-top: 60px;
-  /* margin-bottom: 150px; */
   height: 1018px;
   background-image: url(../assets/bg.png);
   background: url(image), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
@@ -348,6 +347,11 @@
 .story-conatainer {
   display: grid;
   grid-template-columns: 2fr 1fr;
+}
+
+.story-btn-box {
+  text-align: center;
+  margin-top: 60px;
 }
 
 .small-cards {
@@ -566,7 +570,7 @@
 
   /* Story Section */
   .story-section {
-    height: 768px;
+    height: 780px;
   }
 
   .story-conatainer {
@@ -609,6 +613,11 @@
 
   .mbl-card-btn {
     background-color: var(--violetColor);
+  }
+
+  .story-btn-box {
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
 
   /* Footer Area */
