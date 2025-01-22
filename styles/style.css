@@ -351,15 +351,22 @@
 }
 
 .small-cards {
+  /* background: red; */
   width: 600px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* flex-wrap: wrap; */
+  /* gap: 10px; */
+  row-gap: 10px;
+  justify-items: center;
 }
 
 .small-card {
   width: 290px;
+}
+
+.mbl-card {
+  display: none;
 }
 
 .card-btn-box-sm {
@@ -532,6 +539,7 @@
     font-size: 1rem;
   }
 
+  /* Curriculam Section */
   .curriculam-container {
     width: 90%;
     margin: 0 auto;
@@ -548,8 +556,60 @@
     gap: 12px;
   }
 
+  .carriculam-card {
+    width: 100%;
+  }
+
   .next-icons {
     display: none;
+  }
+
+  /* Story Section */
+  .story-section {
+    height: 768px;
+  }
+
+  .story-conatainer {
+    width: 95%;
+    /* background: blue; */
+    display: flex;
+  }
+
+  .big-card {
+    display: none;
+  }
+
+  .small-cards {
+    /* width: 395px; */
+    width: 100%;
+    height: 561px;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .small-card {
+    height: 173px;
+    width: 180px;
+  }
+
+  .mbl-card {
+    display: block;
+  }
+
+  .small-card img {
+    width: 100%;
+  }
+
+  .card-btn-sm {
+    padding: 5px 11px;
+    font-size: 0.55rem;
+  }
+
+  .small-heading {
+    font-size: 0.55rem;
+  }
+
+  .mbl-card-btn {
+    background-color: var(--violetColor);
   }
 }
 
