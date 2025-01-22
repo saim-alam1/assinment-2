@@ -360,8 +360,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   /* flex-wrap: wrap; */
-  /* gap: 10px; */
-  row-gap: 10px;
+  gap: 10px;
+  /* row-gap: 10px; */
   justify-items: center;
 }
 
@@ -589,10 +589,10 @@
   }
 
   .small-card {
-    /* height: 173px;
-    width: 180px; */
-    height: 180px;
-    width: 192px;
+    height: 173px;
+    width: 180px;
+    /* height: 180px;
+    width: 192px; */
   }
 
   .mbl-card {
