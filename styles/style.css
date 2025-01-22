@@ -361,7 +361,6 @@
   grid-template-columns: repeat(2, 1fr);
   /* flex-wrap: wrap; */
   gap: 10px;
-  /* row-gap: 10px; */
   justify-items: center;
 }
 
